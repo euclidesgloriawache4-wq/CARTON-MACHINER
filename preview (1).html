@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartoon Box Machinery</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+header {
+  background: #0a1f44;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #133b7a;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: url('https://images.unsplash.com/photo-1581092334575-6c9590dfd3d1') no-repeat center/cover;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+}
+
+.button {
+  background: green;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  background: #0a1f44;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Cartoon Box Machinery</h1>
+  <p>CMC INTERNATIONAL Pty Ltd SA</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#products">Machines</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>High Quality Machinery Solutions</h2>
+  <p>Reliable Machines for Industrial and Packaging Needs</p>
+</section>
+
+<div class="container">
+
+  <h2 id="products">Our Machines</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc">
+      <h3>Carton Box Machine</h3>
+      <p>High efficiency machine for box production.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581092588429-6b7cba1cc403">
+      <h3>Cutting Machine</h3>
+      <p>Precision cutting for packaging materials.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+      <h3>Printing Machine</h3>
+      <p>High quality printing for carton boxes.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact Information</h2>
+
+  <p><strong>Company:</strong> CMC INTERNATIONAL Pty Ltd SA</p>
+  <p><strong>Phone:</strong> 850141414 / 867572222</p>
+  <p><strong>Email:</strong> WENJUNCAI17@GMAIL.COM</p>
+  <p><strong>Location:</strong> South Africa, Johannesburg, Cyderlin</p>
+
+  <a class="button" href="https://wa.me/27850141414" target="_blank">
+    Contact on WhatsApp
+  </a>
+
+</div>
+
+<footer>
+  <p>© 2026 Cartoon Box Machinery</p>
+</footer>
+
+</body>
+</html>
